@@ -243,7 +243,7 @@ h3 {
 }
 
 .call-list,
-.proof-grid,
+.experience-grid,
 .principles {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -253,7 +253,7 @@ h3 {
 }
 
 .call-list article,
-.proof-card,
+.experience-card,
 .principles > div {
   min-height: 260px;
   padding: clamp(22px, 3vw, 34px);
@@ -261,7 +261,7 @@ h3 {
 }
 
 .call-list p,
-.proof-card p,
+.experience-card p,
 .principles p,
 .role p,
 .fit p,
@@ -291,7 +291,7 @@ h3 {
 }
 
 .role-label,
-.proof-card span {
+.experience-card span {
   display: inline-block;
   margin-bottom: 18px;
   color: var(--amber);
@@ -301,11 +301,11 @@ h3 {
   text-transform: uppercase;
 }
 
-.proof-grid {
+.experience-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.proof-card {
+.experience-card {
   min-height: 300px;
 }
 
@@ -395,7 +395,7 @@ h3 {
   }
 
   .call-list,
-  .proof-grid {
+  .experience-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -439,7 +439,7 @@ h3 {
   .fit-grid,
   .approach .principles,
   .call-list,
-  .proof-grid,
+  .experience-grid,
   .principles {
     grid-template-columns: 1fr;
   }
@@ -449,7 +449,7 @@ h3 {
   }
 
   .call-list article,
-  .proof-card,
+  .experience-card,
   .principles > div {
     min-height: auto;
   }
